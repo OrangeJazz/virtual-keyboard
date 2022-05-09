@@ -1,0 +1,14 @@
+.hidden {
+  display: none;
+}
+.active {
+  box-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+  transform: translate(-0.2rem, 0.3rem);
+  background-color: $color-btn-main-light !important;
+}
+
+// .remove {
+//   box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+//   background-color: $color-btn-main;
+//   transform: translate(0rem, 0rem);
+// }

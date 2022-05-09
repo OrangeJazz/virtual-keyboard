@@ -1,0 +1,39 @@
+.btn {
+  background-color: $color-btn-main;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+  transition: all 0.1s;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+  }
+
+  // &:active {
+  //   box-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+  //   transform: translate(0.2rem, 0.3rem);
+  //   background-color: $color-btn-main-light;
+  // }
+
+  &--double {
+    width: 10rem;
+  }
+
+  &--plus-half {
+    width: 7.5rem;
+  }
+
+  &--space {
+    width: 36rem;
+  }
+
+  &--special {
+    width: 11rem;
+  }
+}
