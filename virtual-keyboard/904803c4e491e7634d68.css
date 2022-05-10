@@ -1,0 +1,113 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/style.scss ***!
+  \**************************************************************************************************************/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.container {
+  /* 1280px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 128rem;
+  margin: 0 auto;
+  overflow: visible;
+  overflow-x: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  box-shadow: 0rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+  transform: translate(-0.2rem, 0.3rem);
+  background-color: rgb(133, 140, 212) !important;
+}
+
+.btn {
+  background-color: rgb(100, 104, 153);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+  transition: all 0.1s;
+}
+.btn:hover, .btn:active {
+  cursor: pointer;
+}
+.btn--double {
+  width: 10rem;
+}
+.btn--plus-half {
+  width: 7.5rem;
+}
+.btn--space {
+  width: 36rem;
+}
+.btn--special {
+  width: 11rem;
+}
+
+.keyboard .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.keyboard .row {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 88rem;
+  padding-bottom: 1rem;
+}
+
+.text {
+  width: 100%;
+  height: 15rem;
+  font-size: 1.6rem;
+  padding-left: 1.5rem;
+  outline: none;
+  border: none;
+}
+
+.post {
+  font-family: "Roboto";
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1.6rem;
+  color: #333;
+}
