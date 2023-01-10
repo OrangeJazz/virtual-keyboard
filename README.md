@@ -1,6 +1,6 @@
 # Virtual keyboard
 Using tools: HTML+JS+CSS+Webpack
-code files at the branch gh-pages
+code files at the gh-pages branch
 App screenshot:
 https://prnt.sc/ToTF0zVR2hk8
 Deploy:
